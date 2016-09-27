@@ -3,4 +3,4 @@
 docker run                          \
   -v `pwd`:/usr/src/goingnative     \
   -v "$HOME/.config/":/root/.config \
-  -it goingnative $@
+  -it goingnative goingnative $@
