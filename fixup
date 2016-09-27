@@ -1,0 +1,4 @@
+#!/bin/sh
+current=`cat ~/.config/goingnative/current.json | tr '[:upper:]' '[:lower:]' | sed 's/[:",.]//g' | sed 's/ /_/g'`
+
+[ "$current" = "mission_possible_part_two" ] && echo "// your code here" > ./myaddon/index.js
