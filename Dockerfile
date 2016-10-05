@@ -18,4 +18,4 @@ RUN curl -k https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/nodejs_6.3.1-
 
 RUN npm install -g node-gyp goingnative
 
-WORKDIR /usr/src/goingnative/myaddon
+WORKDIR /usr/src/goingnative/
